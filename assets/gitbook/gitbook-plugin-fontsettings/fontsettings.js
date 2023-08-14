@@ -198,19 +198,9 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                         className: 'font-reduce',
                         onClick: reduceFontSize
                     },
-                    {
-                        text: 'A',
-                        className: 'font-enlarge',
-                        onClick: enlargeFontSize
-                    }
+                   
                 ],
-                $.map(FAMILIES, function(family) {
-                    family.onClick = function(e) {
-                        return changeFontFamily(family.config, e);
-                    };
-
-                    return family;
-                }),
+                
                 $.map(THEMES, function(theme) {
                     theme.onClick = function(e) {
                         return changeColorTheme(theme.config, e);
