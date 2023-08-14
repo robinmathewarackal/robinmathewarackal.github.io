@@ -62,7 +62,8 @@
 }
 
 .page-inner {
-    max-width: {{ site.page_width | default: '800px' }};
+    /* max-width: {{ site.page_width | default: '800px' }}; */
+    max-width: 90%;
 }
 
 .back-to-top {
