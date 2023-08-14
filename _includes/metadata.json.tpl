@@ -37,7 +37,7 @@
             }
         },
         "theme": "default",
-        "author": "Tao He",
+        "author": "none",
         "pdf": {
             "pageNumbers": true,
             "fontSize": 12,
